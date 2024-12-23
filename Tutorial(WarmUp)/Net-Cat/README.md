@@ -10,6 +10,6 @@ Command: ***nc skrctf.me PORT***
 
 ## Solution
 
-1. Connect to the intance using the command nc skrctf.me <PORT>.<br>
+1. Connect to the intance using the command 'nc skrctf.me *port*'.<br>
    `nc skrctf.me 3003`
 2. Get the flag.
