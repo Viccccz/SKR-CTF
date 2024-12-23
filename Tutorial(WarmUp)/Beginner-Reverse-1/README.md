@@ -3,7 +3,8 @@
 _#Warmups_<br>
 _#Beginner_<br>
 
-Warm Up for Reverse Engineering Category: Find the password to get the flag!
+Warm Up for Reverse Engineering Category: Find the password to get the flag!<br>
+The c source file is [here](../beginner.c).
 
 ## Solution
 
@@ -12,4 +13,12 @@ Warm Up for Reverse Engineering Category: Find the password to get the flag!
 
    ![image](https://github.com/user-attachments/assets/b93edd98-15ef-4870-b40a-ea201d81368a)
 
-3. Execute the c file and get the flag.
+3. Compile the c file and execute it.<br>
+   `gcc beginner.c -o output`
+
+> [!TIP]
+> 1. To install gcc in kali: `sudo apt update`, `sudo apt install gcc`<br>
+> 2. To compile source code: `gcc program.c -o output`<br>
+>    - -o: filename to output
+   
+4. Get the flag.
