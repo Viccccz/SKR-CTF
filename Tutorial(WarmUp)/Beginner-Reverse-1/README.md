@@ -21,4 +21,4 @@ The c source file is [here](../beginner.c).
 > 2. To compile source code: `gcc program.c -o output`<br>
 >    - -o: filename to output
    
-4. Get the flag.
+4. Input the password and get the flag.
