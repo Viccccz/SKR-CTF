@@ -14,7 +14,7 @@ The c source file is [here](../beginner.c).
    ![image](https://github.com/user-attachments/assets/b93edd98-15ef-4870-b40a-ea201d81368a)
 
 3. Compile the c file and execute it.<br>
-   `gcc beginner.c -o output`
+   `gcc beginner.c -o output` and `./output`
 
 > [!TIP]
 > 1. To install gcc in kali: `sudo apt update`, `sudo apt install gcc`<br>
