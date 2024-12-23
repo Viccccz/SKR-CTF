@@ -20,5 +20,6 @@ The c source file is [here](../beginner.c).
 > 1. To install gcc in kali: `sudo apt update`, `sudo apt install gcc`<br>
 > 2. To compile source code: `gcc program.c -o output`<br>
 >    - -o: filename to output
+> 3. In case the source code is not working, you may add `#include<string.h>`
    
 4. Input the password and get the flag.
