@@ -3,7 +3,7 @@
 _#Warmups_<br>
 _#Easy_<br>
 
-Goto this [link](Goto this link to test how well is your patience hehe) to test how well is your patience hehe.
+Goto this [link](http://tenteaea.com/3t8u) to test how well is your patience hehe.
 
 ## Solution
 
