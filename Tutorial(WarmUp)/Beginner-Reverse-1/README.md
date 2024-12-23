@@ -4,7 +4,8 @@ _#Warmups_<br>
 _#Beginner_<br>
 
 Warm Up for Reverse Engineering Category: Find the password to get the flag!<br>
-The c source file is [here](../beginner.c).
+
+[Challenge](../beginner.c)
 
 ## Solution
 
