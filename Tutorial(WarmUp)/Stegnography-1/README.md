@@ -3,7 +3,7 @@
 _#Warmups_<br>
 _#Easy_<br>
 
-The flag is hidden inside the image. Wink your eyes =.=
+The flag is hidden inside the [image](../flag.png). Wink your eyes =.=
 
 ## Solution
 
