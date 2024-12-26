@@ -9,4 +9,6 @@ Note: it takes a while to create the database, please refresh until it successfu
 
 ## Solution
 
-1. 
+1. Attempt to enter an email address and password to evaluate the system's input validation.
+2. We can simply enter `' OR '1' = '1` as both the email and password to log into the system.
+3. Get the flag.
