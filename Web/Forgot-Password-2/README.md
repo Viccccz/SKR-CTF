@@ -13,4 +13,7 @@ I forgot my password again! The system updated the login security, so I can't fi
    ![image](https://github.com/user-attachments/assets/6409fb23-5067-4f3c-ae8f-4dea45f3306d)<br>
    **The decrypted cipher is the login password.*
 
+> [!TIP]
+> [MD5 Decoder](https://www.dcode.fr/md5-hash)
+
 4. Get the flag.
