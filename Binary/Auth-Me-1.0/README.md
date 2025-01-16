@@ -31,6 +31,3 @@ I attempted to read the auth.c file again using the command `cat auth.c` to exam
 **The source code.*
 
 Therefore, I decided to perform a buffer overflow by entering as many a as possible into the username field. As a result, the output displayed a message stating 'segmentation fault,' indicating an issue with memory allocation and that the previous input was not processed. At this point, we can attempt a second input to further exploit the buffer overflow and retrieve the flag.
-
-![Uploading image.png…]()<br>
-**The flag is shown.*
