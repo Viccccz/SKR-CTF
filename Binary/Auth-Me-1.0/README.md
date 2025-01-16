@@ -3,14 +3,14 @@
 _#Binary_<br>
 _#Easy_<br>
 
-Can you authenticate me without login?  
+Can you authenticate me ***without login***?  
 
-You can find the program and source code in our Web Shell: `cd challenges/auth_me`
+You can find the program and source code in our Web Shell: `cd challenges/auth_me`  
 Run the program: `./auth`
 
 ## Solution
 
-First, we open the provided webshell and navigate to the auth_me folder using the command cd challenges/auth_me. Next, I executed the program by typing ./auth.
+First, we open the provided webshell and navigate to the auth_me folder using the command `cd challenges/auth_me`. Next, I executed the program by typing `./auth`.
 
 ![image](https://github.com/user-attachments/assets/ea35a568-9dca-458e-bdc7-55aeadd7abdb)<br>
 **The output is displayed when entering the username in the program.*
@@ -25,7 +25,7 @@ I then first open the flag.txt using the command `cat flag.txt` to get the flag,
 ![image](https://github.com/user-attachments/assets/e8d700cc-9691-4844-83a0-4d988677f2d2)<br>
 **Permission is denied to access flag.txt.*
 
-Then, I tried again to read the auth.c file using command `cat auth.c` to see the structure of the program. By looking at the source code, I noticed that there is not input sanitization for the username field and also the flag size is equal to 64. Regarding to the source code given, in order to obtain the flag from the flag.txt, the input for username must be equal to 0.
+I attempted to read the auth.c file again using the command `cat auth.c` to examine the program's structure. Upon reviewing the source code, I noticed that the username field lacks input sanitization, and the flag size is set to 64. Based on the provided source code, obtaining the flag from flag.txt requires exploiting the system through a buffer overflow.
 
 ![image](https://github.com/user-attachments/assets/b9e5a25b-4f85-4340-a967-c2b1c5d3fdd7)<br>
 **The source code.*
